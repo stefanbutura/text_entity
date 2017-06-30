@@ -102,7 +102,7 @@ class TextEntityFormatter extends FormatterBase
    * @return array
    *   List of fields labels indexed by field name.
    */
-  function getTextFields($contentType) {
+  public function getTextFields($contentType) {
     $fields = [];
     $entityManager = \Drupal::service('entity.manager');
     $res = $entityManager->getFieldDefinitions('node', $contentType);
