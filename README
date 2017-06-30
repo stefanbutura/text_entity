@@ -1,1 +1,8 @@
-Drupal module adding a field formatter for text fields.
+Drupal module adding a field formatter for text fields. The selected field will link to another node if a selected field of the second node has identical value as the formatted field.
+
+Example:
+
+Formatted field: field_employee_companyname
+Option field: field_company_name
+
+If the two fields are identical, the first field will link to the Company node. Otherwise there are no changes.
