@@ -1,0 +1,9 @@
+name: Text Entity
+type: module
+description: Links two text fields with identical values
+dependencies:
+  - field
+  - filter
+  - text
+package: Custom
+core: 8.x

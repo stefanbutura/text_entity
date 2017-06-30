@@ -1,0 +1,7 @@
+field.formatter.settings.text_entity:
+  type: mapping
+  label: 'Text Entity Options'
+  mapping:
+    field_option:
+      type: string
+      label: 'field_option'
