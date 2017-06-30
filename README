@@ -1,4 +1,4 @@
-Drupal module adding a field formatter for text fields. The selected field will link to another node if a selected field of the second node has identical value as the formatted field.
+Drupal module adding a field formatter for text fields. The field will link to another node if a selected field of the second node shares an identical value with the formatted field.
 
 Example:
 
